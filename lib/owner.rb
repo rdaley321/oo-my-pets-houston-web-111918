@@ -7,4 +7,9 @@ class Owner
       dogs: []
     }
   end
+  
+  def buy_cat(name)
+    new = Cat.new(name)
+    self.pets[cats] << new
+  end
 end
