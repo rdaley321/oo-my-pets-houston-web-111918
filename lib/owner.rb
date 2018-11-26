@@ -36,7 +36,6 @@ class Owner
     def self.reset_all
       all.clear
     end
-    binding.pry
     self.all.size
   end
 end
