@@ -38,4 +38,5 @@ class Owner
     end
     self.all.size
   end
+  binding.pry
 end
