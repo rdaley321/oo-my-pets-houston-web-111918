@@ -32,7 +32,7 @@ class Owner
   
   def self.count
     def self.reset_all
-      @@all.clear
+      all.clear
     end
     self.all.size
   end
