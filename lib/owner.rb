@@ -31,7 +31,7 @@ class Owner
   end
   
   def self.count
-    def self.reset_all
+    def reset_all
       all.clear
     end
     self.all.size
