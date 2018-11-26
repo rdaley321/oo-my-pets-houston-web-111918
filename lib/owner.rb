@@ -12,4 +12,14 @@ class Owner
     new = Cat.new(name)
     self.pets[cats] << new
   end
+  
+  def buy_dog(name)
+    new = Cat.new(name)
+    self.pets[cats] << new
+  end
+  
+  def buy_cat(name)
+    new = Cat.new(name)
+    self.pets[cats] << new
+  end
 end
