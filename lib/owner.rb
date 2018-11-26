@@ -23,4 +23,8 @@ class Owner
     new = Fish.new(name)
     self.pets[fishes] << new
   end
+  
+  def self.all
+    @@all
+  end
 end
